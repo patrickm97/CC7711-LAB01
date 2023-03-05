@@ -1,0 +1,74 @@
+{
+  "intents": [
+    { "tag": "saudacao", "patterns": ["Ola", "Opa", "Oi", "tudo bem"], "responses": ["Oi", "Olá"] },
+    { "tag": "despedida", "patterns": ["tchau", "tks", "adeus", "flw"], "responses": ["Até breve", "Falou"] },
+    {
+      "tag": "esperar_tcc",
+      "patterns": ["Oque esperar tcc", "O que esperar TCC", "banca quer"],
+      "responses": [
+        "O trabalho de final de curso tem como objetivo principal exercitar a capacidade dos estudantes em desenvolver uma solucao para uma questao que envolva recursos computacionais e que utilize os conhecimentos acumulados durante o curso de graduacao."
+      ]
+    },
+    {
+      "tag": "entrega_tcc",
+      "patterns": ["o que devo entregar?", "espera final"],
+      "responses": ["Espera-se como resultado final do TCC uma monografia e um programa ou artefato desenvolvido pelos alunos."]
+    },
+    {
+      "tag": "monografia_tcc",
+      "patterns": ["monografia", "o que deve ter na monografia?", ""],
+      "responses": [
+        "Toda a monografia e desenvolvida de acordo com o metodo cientifico estudado no curso.\nA monografia deve apresentar: \nUma introducao e objetivos do trabalho\nconceituacao do problema\nRevisao da literatura, que pode incluir um benchmark de solucoes de mercado\nDesenvolvimento de arquitetura de solucao, engenharia de software e demais tecnicas que descrevam a solucao proposta\nDiscussao dos resultados e consideracoes finais."
+      ]
+    },
+    {
+      "tag": "artefato_tcc",
+      "patterns": ["artefato", "prototipo", "programa", "protótipo"],
+      "responses": [
+        "O artefato ou prototipo (programa) deve ser uma solucao computacional elaborada em um desenvolvimento de um software (e eventualmente o desenvolvimento de um hardware)."
+      ]
+    },
+    {
+      "tag": "grupos_tcc",
+      "patterns": ["grupo", "tcc individual?", "trabalho individual", "quantos integrantes"],
+      "responses": [
+        "O trabalho de conclusao de curso e desenvolvido em grupos de alunos. Os grupos devem buscar ter 4 integrantes. Porem, caso o aluno deseje o trabalho pode ser feito com menos integrantes ou ate mesmo individualmente."
+      ]
+    },
+    {
+      "tag": "escolha_orientador_tcc",
+      "patterns": ["escolher orientador", "escolha orientador", "departamento"],
+      "responses": [
+        "Todo grupo possui um professor orientador escolhido pelos proprios componentes do grupo. Podendo ser de departamentos diferentes do curso do aluno."
+      ]
+    },
+    {
+      "tag": "tema_tcc",
+      "patterns": ["tema", "problema tcc", "problema projeto"],
+      "responses": [
+        "Os alunos sao responsaveis pela escola dos temas a serem abordados em seus trabalhos. Os orientadores aconselham alteracoes ou aperfeicoamentos na delimitacao do escopo ou da metodologia a ser empregada."
+      ]
+    },
+    {
+      "tag": "orientador_tcc",
+      "patterns": ["ajuda orientador", "cabe orientador", "auxilio orientador"],
+      "responses": [
+        "Cabe ao professor orientador:\nConduzir o desenvolvimento do trabalho (recomenda-se pelo menos 1h semanal de reuniao com o grupo e que estas reunioes sejam evidenciadas pelo grupo).\nAuxiliar os alunos nos metodos de pesquisa.\nAuxiliar na busca dos resultados e na reflexao sobre os resultados obtidos.\nAssegurar que os alunos estejam cumprindo as atividades propostas durante as aulas (principalmente as entregas no MOODLE).\nInformar ao professor da disciplina eventuais desvios ou situacoes que merecam atencao e/ou possam prejudicar a evolucao do trabalho ou convivencia do grupo."
+      ]
+    },
+    {
+      "tag": "professor_tcc",
+      "patterns": ["professor disciplina", "professor tcc"],
+      "responses": [
+        "O professor da disciplina de TCC deve:\nApresentar semanalmente topicos relevantes sobre metodologia cientifica e organizacao do trabalho\nAcompanham a evolucao de cada grupo, auxiliando os alunos na conducao das atividades (sem interferir na orientacao).\nValidar as entregas no MOODLE.\nInformar ao professor orientador eventuais desvios ou situacoes que mereçam atencao e/ou possam prejudicar a evolucao do trabalho ou convivencia do grupo."
+      ]
+    },
+    {
+      "tag": "avaliacao_tcc",
+      "patterns": ["avaliacao", "avaliação", "avaliado", "como avaliado", "projeto avaliado", "banca"],
+      "responses": [
+        "Os alunos têm dois semestres para desenvolver todas as atividades relacionadas ao trabalho, e no final de cada semestre serão avaliados por uma banca de professores.\nA banca avaliará a monografia e a solução implementada com base em um conjunto de premissas de avaliação determinadas e conhecidas tanto pelos professores quanto pelos alunos."
+      ]
+    }
+  ]
+}
